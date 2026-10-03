@@ -7,7 +7,7 @@ import { Heart, Home2, Menu2 } from '@vicons/tabler';
 import { storeToRefs } from 'pinia';
 import HeroGradient from '../assets/hero-gradient.svg?component';
 import MenuLayout from '../components/MenuLayout.vue';
-import NavbarButtons from '../components/NavbarButtons.vue';
+import DarkModeButton from '../components/DarkModeButton.vue';
 import { useStyleStore } from '@/stores/style.store';
 import { config } from '@/config';
 import type { ToolCategory } from '@/tools/tools.types';
@@ -53,7 +53,7 @@ const tools = computed<ToolCategory[]>(() => [
           <locale-selector w="90%" />
 
           <div flex justify-center>
-            <NavbarButtons />
+            <DarkModeButton />
           </div>
         </div>
 
@@ -117,7 +117,7 @@ const tools = computed<ToolCategory[]>(() => [
         <locale-selector v-if="!styleStore.isSmallScreen" />
 
         <div>
-          <NavbarButtons v-if="!styleStore.isSmallScreen" />
+          <DarkModeButton v-if="!styleStore.isSmallScreen" />
         </div>
 
         <c-tooltip position="bottom" :tooltip="$t('home.support')">
