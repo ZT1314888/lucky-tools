@@ -14,9 +14,6 @@ importers:
       '@it-tools/oggen':
         specifier: ^1.3.0
         version: 1.3.0
-      '@regexper/render':
-        specifier: ^1.0.0
-        version: 1.0.0
       '@sindresorhus/slugify':
         specifier: ^2.2.1
         version: 2.2.1
@@ -62,12 +59,6 @@ importers:
       composerize-ts:
         specifier: ^0.6.2
         version: 0.6.2
-      cron-validator:
-        specifier: ^1.3.1
-        version: 1.3.1
-      cronstrue:
-        specifier: ^2.26.0
-        version: 2.26.0
       crypto-js:
         specifier: ^4.1.1
         version: 4.1.1
@@ -77,9 +68,6 @@ importers:
       dompurify:
         specifier: ^3.0.6
         version: 3.0.6
-      email-normalizer:
-        specifier: ^1.0.0
-        version: 1.0.0
       emojilib:
         specifier: ^3.0.10
         version: 3.0.10
@@ -140,9 +128,6 @@ importers:
       qrcode:
         specifier: ^1.5.1
         version: 1.5.1
-      randexp:
-        specifier: ^0.5.3
-        version: 0.5.3
       sql-formatter:
         specifier: ^13.0.0
         version: 13.0.0
@@ -1612,12 +1597,6 @@ packages:
   '@popperjs/core@2.11.8':
     resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
 
-  '@regexper/parser@1.0.0':
-    resolution: {integrity: sha512-S8AWIGpCNdl9PNHdbhI6TpXZsPk6FDU/RTZI+6UFF4rVFqDQKjCIbZSgFu7NihoEZKq57wKFPbbT1EzrjVvPHA==}
-
-  '@regexper/render@1.0.0':
-    resolution: {integrity: sha512-xYm9RUgnhhZotTtf8UZpK1PG2CcTRXQ3JPwfTlYUZsy2J+UcTVc7BaO/MJadpMoVuT8jrIyptH4Y0HLzqhI3hQ==}
-
   '@remirror/core-constants@2.0.1':
     resolution: {integrity: sha512-ZR4aihtnnT9lMbhh5DEbsriJRlukRXmLZe7HmM+6ufJNNUDoazc75UX26xbgQlNUqgAqMcUdGFAnPc1JwgAdLQ==}
 
@@ -1710,9 +1689,6 @@ packages:
 
   '@surma/rollup-plugin-off-main-thread@2.2.3':
     resolution: {integrity: sha512-lR8q/9W7hZpMWweNiAKU7NQerBnzQQLvi8qnTDU/fxItPhtZVMbPV3lbCwjhIlNBe9Bbr5V+KHshvWmVSG9cxQ==}
-
-  '@svgdotjs/svg.js@3.2.4':
-    resolution: {integrity: sha512-BjJ/7vWNowlX3Z8O4ywT58DqbNRyYlkk6Yz/D13aB7hGmfQTvGX4Tkgtm/ApYlu9M7lCQi15xUEidqMUmdMYwg==}
 
   '@tabler/icons-vue@3.20.0':
     resolution: {integrity: sha512-kymV0q+bFNqU6bmdlnfK9ru88xFydYIs+jfe0160bLTmcq94ZxcLfXO5JLMq5kjntUSNb4fBvGk0mXB7aDCYnA==}
@@ -2777,13 +2753,6 @@ packages:
   crelt@1.0.6:
     resolution: {integrity: sha512-VQ2MBenTq1fWZUH9DJNGti7kKv6EeAuYr3cLwxUWhIu1baTaXh4Ib5W2CqHVqib4/MqbYGJqiL3Zb8GJZr3l4g==}
 
-  cron-validator@1.3.1:
-    resolution: {integrity: sha512-C1HsxuPCY/5opR55G5/WNzyEGDWFVG+6GLrA+fW/sCTcP6A6NTjUP2AK7B8n2PyFs90kDG2qzwm8LMheADku6A==}
-
-  cronstrue@2.26.0:
-    resolution: {integrity: sha512-M1VdV3hpBAsd1Zzvqcvf63wgDpcwCuS4WiNEVFpJ0s33MGO2sVDTfswYq0EPypCmESrCzmgL8h68DTzJuSDbVA==}
-    hasBin: true
-
   cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
@@ -3008,10 +2977,6 @@ packages:
   dot-case@3.0.4:
     resolution: {integrity: sha512-Kv5nKlh6yRrdrGvxeJ2e5y2eRUpkUosIW4A2AS38zwSz27zu7ufDwQPi5Jhs3XAlGNetl3bmnGhQsMtkKJnj3w==}
 
-  drange@1.1.1:
-    resolution: {integrity: sha512-pYxfDYpued//QpnLIm4Avk7rsNtAtQkUES2cwAYSvD/wd2pKD71gN2Ebj3e7klzXwjocvE8c5vx/1fxwpqmSxA==}
-    engines: {node: '>=4'}
-
   dunder-proto@1.0.0:
     resolution: {integrity: sha512-9+Sj30DIu+4KvHqMfLUGLFYL2PkURSYMVXJyXe92nFRvlYq5hBjLEhblKB+vkd/WVlUYMWigiY07T91Fkk0+4A==}
     engines: {node: '>= 0.4'}
@@ -3041,9 +3006,6 @@ packages:
 
   electron-to-chromium@1.5.73:
     resolution: {integrity: sha512-8wGNxG9tAG5KhGd3eeA0o6ixhiNdgr0DcHWm85XPCphwZgD1lIEoi6t3VERayWao7SF7AAZTw6oARGJeVjH8Kg==}
-
-  email-normalizer@1.0.0:
-    resolution: {integrity: sha512-wZYuuMtL4kUOmg/TPtCrf9hAZjbFq+FcjWA85Z5nr2lGllRnWJPxCJw3gy4Cx+adMoyVw4VJfGGvt/OHgIW+qg==}
 
   emitter-component@1.1.1:
     resolution: {integrity: sha512-G+mpdiAySMuB7kesVRLuyvYRqDmshB7ReKEVuyBPkzQlmiDiLrt7hHHIy4Aff552bgknVN7B2/d3lzhGO5dvpQ==}
@@ -4680,10 +4642,6 @@ packages:
     resolution: {integrity: sha512-80WNmd9DA0tmZrw9qQa62GPPWfuXJknrmVmLcxvq4uZBdYqb1wYoKTmnlGUchvVWe0XiLupYkBoXVOxz3C8DYQ==}
     engines: {node: '>=0.12'}
 
-  randexp@0.5.3:
-    resolution: {integrity: sha512-U+5l2KrcMNOUPYvazA3h5ekF80FHTUG+87SEAmHZmolh1M+i/WyTCxVzmi+tidIa1tM4BSe8g2Y/D3loWDjj+w==}
-    engines: {node: '>=4'}
-
   randombytes@2.1.0:
     resolution: {integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==}
 
@@ -4793,10 +4751,6 @@ packages:
   ret@0.1.15:
     resolution: {integrity: sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==}
     engines: {node: '>=0.12'}
-
-  ret@0.2.2:
-    resolution: {integrity: sha512-M0b3YWQs7R3Z917WRQy1HHA7Ba7D8hvZg6UE5mLykJxQVE2ju0IXbGlaHPPlkY+WN7wFP+wUMXmBFA0aV6vYGQ==}
-    engines: {node: '>=4'}
 
   reusify@1.0.4:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
@@ -5249,11 +5203,6 @@ packages:
 
   typescript@5.2.2:
     resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
-    engines: {node: '>=14.17'}
-    hasBin: true
-
-  typescript@5.5.4:
-    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -7362,13 +7311,6 @@ snapshots:
 
   '@popperjs/core@2.11.8': {}
 
-  '@regexper/parser@1.0.0': {}
-
-  '@regexper/render@1.0.0':
-    dependencies:
-      '@regexper/parser': 1.0.0
-      '@svgdotjs/svg.js': 3.2.4
-
   '@remirror/core-constants@2.0.1':
     dependencies:
       '@babel/runtime': 7.23.2
@@ -7480,8 +7422,6 @@ snapshots:
       json5: 2.2.3
       magic-string: 0.25.9
       string.prototype.matchall: 4.0.11
-
-  '@svgdotjs/svg.js@3.2.4': {}
 
   '@tabler/icons-vue@3.20.0(vue@3.3.4)':
     dependencies:
@@ -8849,10 +8789,6 @@ snapshots:
 
   crelt@1.0.6: {}
 
-  cron-validator@1.3.1: {}
-
-  cronstrue@2.26.0: {}
-
   cross-spawn@7.0.3:
     dependencies:
       path-key: 3.1.1
@@ -9054,8 +8990,6 @@ snapshots:
       no-case: 3.0.4
       tslib: 2.5.0
 
-  drange@1.1.1: {}
-
   dunder-proto@1.0.0:
     dependencies:
       call-bind-apply-helpers: 1.0.1
@@ -9084,10 +9018,6 @@ snapshots:
   electron-to-chromium@1.4.572: {}
 
   electron-to-chromium@1.5.73: {}
-
-  email-normalizer@1.0.0:
-    dependencies:
-      typescript: 5.5.4
 
   emitter-component@1.1.1: {}
 
@@ -10955,11 +10885,6 @@ snapshots:
       discontinuous-range: 1.0.0
       ret: 0.1.15
 
-  randexp@0.5.3:
-    dependencies:
-      drange: 1.1.1
-      ret: 0.2.2
-
   randombytes@2.1.0:
     dependencies:
       safe-buffer: 5.2.1
@@ -11084,8 +11009,6 @@ snapshots:
       signal-exit: 3.0.7
 
   ret@0.1.15: {}
-
-  ret@0.2.2: {}
 
   reusify@1.0.4: {}
 
@@ -11565,8 +11488,6 @@ snapshots:
       reflect.getprototypeof: 1.0.8
 
   typescript@5.2.2: {}
-
-  typescript@5.5.4: {}
 
   ua-parser-js@1.0.35: {}
 
