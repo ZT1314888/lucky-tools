@@ -1,14 +1,11 @@
 import { tool as base64FileConverter } from './base64-file-converter';
 import { tool as base64StringConverter } from './base64-string-converter';
 import { tool as basicAuthGenerator } from './basic-auth-generator';
-import { tool as emailNormalizer } from './email-normalizer';
 
 import { tool as textToUnicode } from './text-to-unicode';
 import { tool as safelinkDecoder } from './safelink-decoder';
 import { tool as xmlToJson } from './xml-to-json';
 import { tool as jsonToXml } from './json-to-xml';
-import { tool as regexTester } from './regex-tester';
-import { tool as regexMemo } from './regex-memo';
 import { tool as markdownToHtml } from './markdown-to-html';
 import { tool as pdfSignatureChecker } from './pdf-signature-checker';
 import { tool as macAddressGenerator } from './mac-address-generator';
@@ -44,7 +41,6 @@ import { tool as bip39 } from './bip39-generator';
 import { tool as caseConverter } from './case-converter';
 import { tool as chmodCalculator } from './chmod-calculator';
 import { tool as colorConverter } from './color-converter';
-import { tool as crontabGenerator } from './crontab-generator';
 import { tool as dateTimeConverter } from './date-time-converter';
 import { tool as deviceInformation } from './device-information';
 import { tool as cypher } from './encryption';
@@ -131,7 +127,6 @@ export const toolsByCategory: ToolCategory[] = [
     name: 'Development',
     components: [
       gitMemo,
-      crontabGenerator,
       jsonViewer,
       jsonMinify,
       jsonToCsv,
@@ -140,9 +135,6 @@ export const toolsByCategory: ToolCategory[] = [
       dockerRunToDockerComposeConverter,
       xmlFormatter,
       yamlViewer,
-      emailNormalizer,
-      regexTester,
-      regexMemo,
     ],
   },
   {

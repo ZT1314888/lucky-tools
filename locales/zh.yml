@@ -115,10 +115,6 @@ tools:
     title: 加密
     description: 使用bcrypt对文本字符串进行哈希和比较。Bcrypt是一个基于Blowfish密码的密码哈希函数。
 
-  crontab-generator:
-    title: Crontab 表达式生成
-    description: 验证并生成crontab，并获取cron调度的可读描述。
-
   http-status-codes:
     title: HTTP 状态码
     description: 所有HTTP状态的列表对其名称和含义解释。

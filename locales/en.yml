@@ -117,10 +117,6 @@ tools:
     title: Bcrypt
     description: Hash and compare text string using bcrypt. Bcrypt is a password-hashing function based on the Blowfish cipher.
 
-  crontab-generator:
-    title: Crontab generator
-    description: Validate and generate crontab and get the human-readable description of the cron schedule.
-
   http-status-codes:
     title: HTTP status codes
     description: The list of all HTTP status codes, their name, and their meaning.
