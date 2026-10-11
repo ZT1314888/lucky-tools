@@ -7,7 +7,6 @@ home:
   subtitle: 'Handy tools for developers'
   toggleMenu: 'Toggle menu'
   home: Home
-  uiLib: 'UI Lib'
   support: 'Support IT-Tools development'
   buyMeACoffee: 'Sponsor'
   follow:
@@ -190,10 +189,6 @@ tools:
     title: User-agent parser
     description: Detect and parse Browser, Engine, OS, CPU, and Device type/model from an user-agent string.
 
-  numeronym-generator:
-    title: Numeronym generator
-    description: A numeronym is a word where a number is used to form an abbreviation. For example, "i18n" is a numeronym of "internationalization" where 18 stands for the number of letters between the first i and the last n in the word.
-
   case-converter:
     title: Case converter
     description: Transform the case of a string and choose between different formats
@@ -221,10 +216,6 @@ tools:
   toml-to-json:
     title: TOML to JSON
     description: Parse and convert TOML to JSON.
-
-  lorem-ipsum-generator:
-    title: Lorem ipsum generator
-    description: Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content
 
   qrcode-generator:
     title: QR Code generator
@@ -306,10 +297,6 @@ tools:
     title: ULID generator
     description: Generate random Universally Unique Lexicographically Sortable Identifier (ULID).
 
-  string-obfuscator:
-    title: String obfuscator
-    description: Obfuscate a string (like a secret, an IBAN, or a token) to make it shareable and identifiable without revealing its content.
-
   base-converter:
     title: Integer base converter
     description: Convert a number between different bases (decimal, hexadecimal, binary, octal, base64, ...)
@@ -326,10 +313,6 @@ tools:
     title: IPv4 address converter
     description: Convert an IP address into decimal, binary, hexadecimal, or even an IPv6 representation of it.
 
-  text-statistics:
-    title: Text statistics
-    description: Get information about a text, the number of characters, the number of words, its size in bytes, ...
-
   text-to-nato-alphabet:
     title: Text to NATO alphabet
     description: Transform text into the NATO phonetic alphabet for oral transmission.
@@ -345,10 +328,6 @@ tools:
   ipv4-range-expander:
     title: IPv4 range expander
     description: Given a start and an end IPv4 address, this tool calculates a valid IPv4 subnet along with its CIDR notation.
-
-  text-diff:
-    title: Text diff
-    description: Compare two texts and see the differences between them.
 
   otp-generator:
     title: OTP code generator

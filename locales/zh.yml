@@ -7,7 +7,6 @@ home:
   subtitle: '助力开发人员和 IT 工作者'
   toggleMenu: '切换菜单'
   home: '主页'
-  uiLib: 'UI 库'
   support: '支持 IT 工具开发'
   buyMeACoffee: '赞助'
   follow:
@@ -187,10 +186,6 @@ tools:
     title: 用户代理分析器
     description: 从用户代理字符串中检测和分析浏览器、引擎、操作系统、CPU和设备类型/型号。
 
-  numeronym-generator:
-    title: 数字名称生成器
-    description: 数字名是一个用数字构成缩写的词。例如，“i18n”是“国际化”的名词，其中18表示单词中第一个i和最后一个n之间的字母数。
-
   case-converter:
     title: 大小写转换
     description: 更改字符串的大小写并在不同格式之间进行选择
@@ -218,10 +213,6 @@ tools:
   toml-to-json:
     title: TOML 到 JSON
     description: 解析TOML并将其转换为JSON。
-
-  lorem-ipsum-generator:
-    title: Lorem ipsum生成器
-    description: Lorem ipsum是一种占位符文本，通常用于演示文档或字体的视觉形式，而不依赖于有意义的内容
 
   qrcode-generator:
     title: 二维码生成器
@@ -302,10 +293,6 @@ tools:
     title: ULID 生成器
     description: 生成随机的通用唯一词典可排序标识符（ULID）。
 
-  string-obfuscator:
-    title: 字符串混淆器
-    description: 混淆字符串（如秘密、IBAN 或令牌），使其可共享和可识别，而不泄露其内容。
-
   base-converter:
     title: 整数基转换器
     description: 在不同的基数（十进制、十六进制、二进制、八进制、base64…）之间转换数字
@@ -322,10 +309,6 @@ tools:
     title: Ipv4地址转换器
     description: 在ipv6中，将ip地址转换为十进制、二进制、十六进制或事件
 
-  text-statistics:
-    title: 文本统计
-    description: 获取有关文本、字符数、字数、大小等的信息
-
   text-to-nato-alphabet:
     title: 文本转北约字母表
     description: 将文本转换为北约拼音字母以进行口头传播。
@@ -341,10 +324,6 @@ tools:
   ipv4-range-expander:
     title: IPv4范围扩展器
     description: 给定起始和结束IPv4地址，此工具使用其CIDR表示法计算有效的IPv4网络。
-
-  text-diff:
-    title: 文本比较
-    description: 比较两个文本并查看它们之间的差异。
 
   otp-generator:
     title: OTP代码生成器
