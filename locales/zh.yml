@@ -67,7 +67,7 @@ tools:
     network: '网络'
     math: '数学'
     measurement: '测量'
-    text: '文本'
+    prompts: '提示词'
     data: '数据'
 
   password-strength-analyser:

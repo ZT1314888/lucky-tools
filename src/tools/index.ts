@@ -134,7 +134,7 @@ export const toolsByCategory: ToolCategory[] = [
     components: [ipv6UlaGenerator],
   },
   {
-    name: 'Text',
+    name: 'Prompts',
     components: [emojiPicker],
   },
 ];

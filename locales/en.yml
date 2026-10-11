@@ -67,7 +67,7 @@ tools:
     network: Network
     math: Math
     measurement: Measurement
-    text: Text
+    prompts: Prompts
     data: Data
 
   password-strength-analyser:
