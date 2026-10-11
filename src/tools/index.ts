@@ -60,7 +60,6 @@ import { tool as mimeTypes } from './mime-types';
 import { tool as otpCodeGeneratorAndValidator } from './otp-code-generator-and-validator';
 import { tool as qrCodeGenerator } from './qr-code-generator';
 import { tool as wifiQrCodeGenerator } from './wifi-qr-code-generator';
-import { tool as randomPortGenerator } from './random-port-generator';
 import { tool as romanNumeralConverter } from './roman-numeral-converter';
 import { tool as sqlPrettify } from './sql-prettify';
 import { tool as svgPlaceholderGenerator } from './svg-placeholder-generator';
@@ -132,7 +131,6 @@ export const toolsByCategory: ToolCategory[] = [
     name: 'Development',
     components: [
       gitMemo,
-      randomPortGenerator,
       crontabGenerator,
       jsonViewer,
       jsonMinify,
