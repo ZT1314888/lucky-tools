@@ -89,17 +89,9 @@ tools:
       copy: Copy
       refresh: Refresh
 
-  svg-placeholder-generator:
-    title: SVG placeholder generator
-    description: Generate svg images to use as a placeholder in your applications.
-
   json-to-csv:
     title: JSON to CSV
     description: Convert JSON to CSV with automatic header detection.
-
-  camera-recorder:
-    title: Camera recorder
-    description: Take a picture or record a video from your webcam or camera.
 
   keycode-info:
     title: Keycode info
@@ -208,10 +200,6 @@ tools:
   qrcode-generator:
     title: QR Code generator
     description: Generate and download a QR code for a URL (or just plain text), and customize the background and foreground colors.
-
-  wifi-qrcode-generator:
-    title: WiFi QR Code generator
-    description: Generate and download QR codes for quick connections to WiFi networks.
 
   xml-formatter:
     title: XML formatter

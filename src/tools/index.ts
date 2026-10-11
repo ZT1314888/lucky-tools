@@ -17,7 +17,6 @@ import { tool as jsonToToml } from './json-to-toml';
 import { tool as tomlToYaml } from './toml-to-yaml';
 import { tool as tomlToJson } from './toml-to-json';
 import { tool as jsonToCsv } from './json-to-csv';
-import { tool as cameraRecorder } from './camera-recorder';
 import { tool as listConverter } from './list-converter';
 import { tool as jsonDiff } from './json-diff';
 import { tool as httpStatusCodes } from './http-status-codes';
@@ -51,10 +50,8 @@ import { tool as metaTagGenerator } from './meta-tag-generator';
 import { tool as mimeTypes } from './mime-types';
 import { tool as otpCodeGeneratorAndValidator } from './otp-code-generator-and-validator';
 import { tool as qrCodeGenerator } from './qr-code-generator';
-import { tool as wifiQrCodeGenerator } from './wifi-qr-code-generator';
 import { tool as romanNumeralConverter } from './roman-numeral-converter';
 import { tool as sqlPrettify } from './sql-prettify';
-import { tool as svgPlaceholderGenerator } from './svg-placeholder-generator';
 import { tool as tokenGenerator } from './token-generator';
 import type { ToolCategory } from './tools.types';
 import { tool as urlEncoder } from './url-encoder';
@@ -116,7 +113,7 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'Images and videos',
-    components: [qrCodeGenerator, wifiQrCodeGenerator, svgPlaceholderGenerator, cameraRecorder],
+    components: [qrCodeGenerator],
   },
   {
     name: 'Development',
