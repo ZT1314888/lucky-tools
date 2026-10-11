@@ -194,10 +194,6 @@ tools:
     title: Docker Run 到 docker-compose 转换器
     description: 将 docker run 命令行转换为 docker-compose 文件!
 
-  mac-address-lookup:
-    title: MAC地址查找
-    description: 通过设备的MAC地址查找设备的供应商和制造商。
-
   mime-types:
     title: mime类型
     description: 将mime类型转换为扩展，反之亦然。
@@ -234,10 +230,6 @@ tools:
     title: YAML 到 TOML
     description: 解析YAML并将其转换为TOML。
 
-  mac-address-generator:
-    title: MAC 地址生成器
-    description: 输入数量和前缀。MAC地址将以您选择的大小写（大写或小写）生成
-
   json-diff:
     title: JSON 差异比较
     description: 比较两个JSON对象并获得它们之间的差异。
@@ -248,10 +240,6 @@ tools:
   date-converter:
     title: 日期时间转换器
     description: 将日期和时间转换为各种不同的格式
-
-  ipv4-subnet-calculator:
-    title: IPv4子网计算器
-    description: 解析IPv4 CIDR块，并获取有关子网络的所有所需信息。
 
   og-meta-generator:
     title: 开放式图形元生成器
@@ -297,10 +285,6 @@ tools:
     title: UUIDs 生成器
     description: 通用唯一标识符（UUID）是一个128位数字，用于标识计算机系统中的信息。可能的UUID数量为16^32，即2^128或约3.4x10^38（这是一个很大的数字！）。
 
-  ipv4-address-converter:
-    title: Ipv4地址转换器
-    description: 在ipv6中，将ip地址转换为十进制、二进制、十六进制或事件
-
   text-to-nato-alphabet:
     title: 文本转北约字母表
     description: 将文本转换为北约拼音字母以进行口头传播。
@@ -312,10 +296,6 @@ tools:
   text-to-unicode:
     title: 文本转 Unicode
     description: 解析文本并将其转换为 unicode，反之亦然
-
-  ipv4-range-expander:
-    title: IPv4范围扩展器
-    description: 给定起始和结束IPv4地址，此工具使用其CIDR表示法计算有效的IPv4网络。
 
   otp-generator:
     title: OTP代码生成器

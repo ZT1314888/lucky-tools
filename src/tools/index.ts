@@ -8,7 +8,6 @@ import { tool as xmlToJson } from './xml-to-json';
 import { tool as jsonToXml } from './json-to-xml';
 import { tool as markdownToHtml } from './markdown-to-html';
 import { tool as pdfSignatureChecker } from './pdf-signature-checker';
-import { tool as macAddressGenerator } from './mac-address-generator';
 import { tool as textToBinary } from './text-to-binary';
 import { tool as ulidGenerator } from './ulid-generator';
 import { tool as emojiPicker } from './emoji-picker';
@@ -21,14 +20,11 @@ import { tool as jsonToCsv } from './json-to-csv';
 import { tool as cameraRecorder } from './camera-recorder';
 import { tool as listConverter } from './list-converter';
 import { tool as jsonDiff } from './json-diff';
-import { tool as ipv4RangeExpander } from './ipv4-range-expander';
 import { tool as httpStatusCodes } from './http-status-codes';
 import { tool as yamlToJson } from './yaml-to-json-converter';
 import { tool as jsonToYaml } from './json-to-yaml-converter';
 import { tool as ipv6UlaGenerator } from './ipv6-ula-generator';
-import { tool as ipv4AddressConverter } from './ipv4-address-converter';
 import { tool as userAgentParser } from './user-agent-parser';
-import { tool as ipv4SubnetCalculator } from './ipv4-subnet-calculator';
 import { tool as dockerRunToDockerComposeConverter } from './docker-run-to-docker-compose-converter';
 import { tool as htmlWysiwygEditor } from './html-wysiwyg-editor';
 import { tool as rsaKeyPairGenerator } from './rsa-key-pair-generator';
@@ -64,7 +60,6 @@ import type { ToolCategory } from './tools.types';
 import { tool as urlEncoder } from './url-encoder';
 import { tool as urlParser } from './url-parser';
 import { tool as uuidGenerator } from './uuid-generator';
-import { tool as macAddressLookup } from './mac-address-lookup';
 import { tool as xmlFormatter } from './xml-formatter';
 import { tool as yamlViewer } from './yaml-viewer';
 
@@ -139,7 +134,7 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'Network',
-    components: [ipv4SubnetCalculator, ipv4AddressConverter, ipv4RangeExpander, macAddressLookup, macAddressGenerator, ipv6UlaGenerator],
+    components: [ipv6UlaGenerator],
   },
   {
     name: 'Text',
