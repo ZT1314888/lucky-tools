@@ -74,10 +74,6 @@ tools:
   password-strength-analyser:
     title: 密码强度分析仪
     description: 使用此密码强度分析器和破解时间估计工具来发现密码的强度。
-
-  chronometer:
-    title: 计时器
-    description: 监控事物的持续时间。基本上是一种具有简单计时器功能的计时器。
   token-generator:
     title: Token 生成器
     description: 使用您想要的字符、大写或小写字母、数字和/或符号生成随机字符串。
@@ -92,9 +88,6 @@ tools:
     button:
       copy: 复制
       refresh: 刷新
-  percentage-calculator:
-    title: 百分比计算器
-    description: 轻松计算从一个值到另一个值的百分比，或从百分比到值的百分比。
 
   svg-placeholder-generator:
     title: SVG 占位符生成器
@@ -135,10 +128,6 @@ tools:
     title: SQL 美化和格式化
     description: 在线格式化和美化您的 SQL 查询（它支持各种 SQL 方言）。
 
-  benchmark-builder:
-    title: 基准生成器
-    description: 简单的在线基准构建器可以轻松比较任务的执行时间。
-
   git-memo:
     title: Git 备忘录
     description: Git是一种去中心化的版本管理软件。使用此备忘单，您可以快速访问最常见的git命令.
@@ -158,10 +147,6 @@ tools:
   yaml-prettify:
     title: YAML美化和格式化
     description: 将YAML字符串修饰为友好的可读格式。
-
-  eta-calculator:
-    title: ETA 计算器
-    description: ETA（估计到达时间）计算器，用于知道任务的近似结束时间，例如下载的结束时刻。
 
   roman-numeral-converter:
     title: 罗马数字转换器
@@ -190,10 +175,6 @@ tools:
     title: TOML 到 YAML
     description: Parse and convert TOML to YAML.
 
-  math-evaluator:
-    title: 数学计算器
-    description: 计算数学表达式的计算器。您可以使用sqrt、cos、sin、abs等函数。
-
   json-to-yaml-converter:
     title: JSON到YAML转换器
     description: 在线转换将JSON转换为YAML。
@@ -201,10 +182,6 @@ tools:
   url-parser:
     title: Url分析器
     description: 解析url字符串以获取所有不同的部分（协议、来源、参数、端口、用户名密码…）
-
-  iban-validator-and-parser:
-    title: IBAN验证器和解析器
-    description: 验证和分析IBAN编号。检查IBAN是否有效，并获取国家BBAN，如果它是QR-IBAN和IBAN友好格式。
 
   user-agent-parser:
     title: 用户代理分析器
@@ -258,10 +235,6 @@ tools:
     title: XML 格式化
     description: 将XML字符串修饰为友好的可读格式。
 
-  temperature-converter:
-    title: 温度转换器
-    description: 开尔文、摄氏度、华氏度、兰金、德莱尔、牛顿、雷奥穆尔和罗默温度度数转换。
-
   chmod-calculator:
     title: Chmod 计算器
     description: 使用此在线的chmod计算器计算chmod权限和命令。
@@ -292,10 +265,6 @@ tools:
   date-converter:
     title: 日期时间转换器
     description: 将日期和时间转换为各种不同的格式
-
-  phone-parser-and-formatter:
-    title: 电话分析器和格式化程序
-    description: 解析、验证和格式化电话号码。获取有关电话号码的信息，如国家/地区代码、类型等。
 
   ipv4-subnet-calculator:
     title: IPv4子网计算器

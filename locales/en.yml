@@ -75,10 +75,6 @@ tools:
     title: Password strength analyser
     description: Discover the strength of your password with this client-side-only password strength analyser and crack time estimation tool.
 
-  chronometer:
-    title: Chronometer
-    description: Monitor the duration of a thing. Basically a chronometer with simple chronometer features.
-
   token-generator:
     title: Token generator
     description: Generate random string with the chars you want, uppercase or lowercase letters, numbers and/or symbols.
@@ -93,9 +89,6 @@ tools:
     button:
       copy: Copy
       refresh: Refresh
-  percentage-calculator:
-    title: Percentage calculator
-    description: Easily calculate percentages from a value to another value, or from a percentage to a value.
 
   svg-placeholder-generator:
     title: SVG placeholder generator
@@ -137,10 +130,6 @@ tools:
     title: SQL prettify and format
     description: Format and prettify your SQL queries online (it supports various SQL dialects).
 
-  benchmark-builder:
-    title: Benchmark builder
-    description: Easily compare execution time of tasks with this very simple online benchmark builder.
-
   git-memo:
     title: Git cheatsheet
     description: Git is a decentralized version management software. With this cheatsheet, you will have quick access to the most common git commands.
@@ -160,10 +149,6 @@ tools:
   yaml-prettify:
     title: YAML prettify and format
     description: Prettify your YAML string into a friendly, human-readable format.
-
-  eta-calculator:
-    title: ETA calculator
-    description: An ETA (Estimated Time of Arrival) calculator to determine the approximate end time of a task, for example, the end time and duration of a file download.
 
   roman-numeral-converter:
     title: Roman numeral converter
@@ -193,10 +178,6 @@ tools:
     title: TOML to YAML
     description: Parse and convert TOML to YAML.
 
-  math-evaluator:
-    title: Math evaluator
-    description: A calculator for evaluating mathematical expressions. You can use functions like sqrt, cos, sin, abs, etc.
-
   json-to-yaml-converter:
     title: JSON to YAML converter
     description: Simply convert JSON to YAML with this online live converter.
@@ -204,10 +185,6 @@ tools:
   url-parser:
     title: URL parser
     description: Parse a URL into its separate constituent parts (protocol, origin, params, port, username-password, ...)
-
-  iban-validator-and-parser:
-    title: IBAN validator and parser
-    description: Validate and parse IBAN numbers. Check if an IBAN is valid and get the country, BBAN, if it is a QR-IBAN and the IBAN friendly format.
 
   user-agent-parser:
     title: User-agent parser
@@ -261,10 +238,6 @@ tools:
     title: XML formatter
     description: Prettify your XML string into a friendly, human-readable format.
 
-  temperature-converter:
-    title: Temperature converter
-    description: Degrees temperature conversions for Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur, and Rømer.
-
   chmod-calculator:
     title: Chmod calculator
     description: Compute your chmod permissions and commands with this online chmod calculator.
@@ -296,10 +269,6 @@ tools:
   date-converter:
     title: Date-time converter
     description: Convert date and time into the various different formats
-
-  phone-parser-and-formatter:
-    title: Phone parser and formatter
-    description: Parse, validate and format phone numbers. Get information about the phone number, like the country code, type, etc.
 
   ipv4-subnet-calculator:
     title: IPv4 subnet calculator
